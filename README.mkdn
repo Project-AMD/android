@@ -1,23 +1,27 @@
-LineageOS MT6582 kernel 3.4.67
-===========
+For mediatek device mt6582/92 kernel 3.4.67
+* Init
 
-init:
-$ repo init -u https://github.com/Projetc-AMD/android.git -b cm-13.0
+        # repo init -u git://github.com/Project-AMD/android.git -b cm-13.0
+        
+        # repo sync -f --force-sync --no-clone-bundle --no-tags
+        
+* Build
 
-sync:
-$ repo sync -f --force-sync --no-clone-bundle --no-tags
+        # source build/envsetup.sh
+        
+        # brunch cm_AMD-userdebug
 
-BUild:
-$ source build/envsetup.sh
-$ brunch cm_AMD-userdebug
+* Credits
 
-Credits:
-- LineageOS team
-- AMD Familys
-- ferhung-mtk
-- fire855
-- Hikari-no-tenshi
-- Dhea Apriandi
-- Anik Khan
-- Akhilnarang
-
+        # fire855        
+        # ferhung-mtk        
+        # ariafan        
+        # DerTeufel        
+        # xen0n        
+        # akhilnarang        
+        # Anik1199 (Anik_khan)        
+        # Hikari-No-Tenshi        
+        # abinyaazka        
+        # dheaapriandi (Dhea Mohammad Apriandi)        
+        # AMD Family        
+        # All the people who are contributing to the working CyanogenMod of MTK hardware        
